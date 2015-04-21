@@ -13,6 +13,7 @@
 		C31AC50F1AE3BD4300081D9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31AC50E1AE3BD4300081D9E /* Images.xcassets */; };
 		C31AC5121AE3BD4300081D9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C31AC5101AE3BD4300081D9E /* LaunchScreen.xib */; };
 		C31AC51E1AE3BD4300081D9E /* DDSliderSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31AC51D1AE3BD4300081D9E /* DDSliderSampleTests.swift */; };
+		C3D28AAE1AE492F200874256 /* DDSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D28AAD1AE492F200874256 /* DDSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C31AC5171AE3BD4300081D9E /* DDSliderSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDSliderSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31AC51C1AE3BD4300081D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C31AC51D1AE3BD4300081D9E /* DDSliderSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDSliderSampleTests.swift; sourceTree = "<group>"; };
+		C3D28AAD1AE492F200874256 /* DDSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				C31AC5071AE3BD4300081D9E /* AppDelegate.swift */,
 				C31AC5091AE3BD4300081D9E /* ViewController.swift */,
+				C3D28AAD1AE492F200874256 /* DDSlider.swift */,
 				C31AC50B1AE3BD4300081D9E /* Main.storyboard */,
 				C31AC50E1AE3BD4300081D9E /* Images.xcassets */,
 				C31AC5101AE3BD4300081D9E /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D28AAE1AE492F200874256 /* DDSlider.swift in Sources */,
 				C31AC50A1AE3BD4300081D9E /* ViewController.swift in Sources */,
 				C31AC5081AE3BD4300081D9E /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				C31AC5231AE3BD4300081D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C31AC5241AE3BD4300081D9E /* Build configuration list for PBXNativeTarget "DDSliderSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				C31AC5261AE3BD4300081D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

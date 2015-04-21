@@ -12,7 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor(red: 1, green: 0.4, blue: 0, alpha: 1)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +22,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func didChangeValue(sender: DDSlider) {
+        println("current progress is \(sender.progress)")
+    }
 
 }
 
